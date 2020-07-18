@@ -21,19 +21,30 @@ body {
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    background-color: red;
+    background-color: #B5B8C8;
 }
 
 .nav-menu li {
     margin: 10px;
+    font-size: 20px;
 }
 
 /* ----------------------------------------------- Main */
 
 .bg-image {
     background-image: url(images/bg-image.jpg);
-    height: 100vh;
-    background-size: cover;
+    height: 90vh;
+      background-size: cover;
     background-repeat: no-repeat;
+  
+}
 
+.headline {
+    text-align: center;
+}
+
+.headline h1 {
+    font-size: 50px;
+    padding-top: 30vh;
+    text-transform: uppercase;
 }
