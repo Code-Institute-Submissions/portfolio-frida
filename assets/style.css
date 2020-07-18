@@ -61,7 +61,7 @@ main {
 
 .headline-2 {
     font-size: 40px;
-    padding: 10vh;
+    padding: 5vh;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     text-align: center;
@@ -74,12 +74,22 @@ main {
 }
 
 .about-me-info p {
-    width: 50%;
-    padding: 10vh;
+    width: 40%;
+    padding: 5vh;
 }
 
 .fridas-photo {
-    width: 25%;
+    width: 15%;
     height: auto;
     border-radius: 50%;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list-of-skills {
+    list-style-type: none;
+    text-align: center;
 }
