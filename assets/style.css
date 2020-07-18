@@ -9,7 +9,6 @@
 
 body {
     font-family: "Playfair Display" , serif;
-    font-size: 16px;
 }
 
 /* ----------------------------------------------Header */
@@ -22,19 +21,25 @@ body {
     align-items: center;
     list-style-type: none;
     background-color: #B5B8C8;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-menu li {
     margin: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* ----------------------------------------------- Main */
 
+main {
+    padding-top: 10vh;
+}
+
 .bg-image {
     background-image: url(images/bg-image.jpg);
     height: 90vh;
-      background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
   
 }
@@ -47,4 +52,34 @@ body {
     font-size: 50px;
     padding-top: 30vh;
     text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+/* ----------------------------------------------- About me */
+
+
+
+.headline-2 {
+    font-size: 40px;
+    padding: 10vh;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+.about-me-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-info p {
+    width: 50%;
+    padding: 10vh;
+}
+
+.fridas-photo {
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
 }
