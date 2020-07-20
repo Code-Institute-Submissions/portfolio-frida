@@ -61,7 +61,7 @@ main {
 
 .headline-2 {
     font-size: 40px;
-    padding: 5vh;
+    padding: 5px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     text-align: center;
@@ -74,7 +74,7 @@ main {
 }
 
 .about-me-info p {
-    width: 40%;
+    width: 50%;
     padding: 5vh;
 }
 
@@ -84,12 +84,36 @@ main {
     border-radius: 50%;
 }
 
-.skills {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.list-of-skills {
-    list-style-type: none;
-    text-align: center;
-}
+ .bar {
+      background-color: rgb(231, 231, 231);
+      border-radius: 20px;
+   }
+   .container {
+       width: 60%;
+       margin: auto;
+   }
+   .html, .css, .javascript, .python {
+      text-align: center;
+      font-weight: bolder;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      color: white;
+      border-radius: 20px;
+      
+   }
+   .html {
+      width: 90%;
+      background-color: #787D96;
+   }
+   .css {
+      width: 80%;
+      background-color: #5C8C72;
+   }
+   .javascript {
+      width: 65%;
+      background-color:#ABAB67;
+   }
+   .python {
+      width: 60%;
+      background-color: #808080;
+   }
