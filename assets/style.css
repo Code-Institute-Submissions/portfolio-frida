@@ -92,6 +92,8 @@ main {
    .container {
        width: 60%;
        margin: auto;
+       margin-top: 5vh;
+       margin-bottom: 5vh;
    }
 
    .html, .css, .javascript, .python {
@@ -171,4 +173,18 @@ input[type=submit] {
   padding: 12px 20px;
   border-radius: 4px;
   border: none;
+}
+
+
+/* -------------------------------- Footer */
+
+
+footer {
+  height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    background-color: #B5B8C8;
+    width: 100%;
 }
