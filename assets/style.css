@@ -85,7 +85,7 @@ main {
 }
 
  .bar {
-      background-color: rgb(231, 231, 231);
+      background-color: #CDCDCA ;
       border-radius: 20px;
    }
 
@@ -113,12 +113,12 @@ main {
       background-color: #5C8C72;
    }
    .javascript {
-      width: 65%;
+      width: 10%;
       background-color:#ABAB67;
    }
    .python {
-      width: 60%;
-      background-color: #808080;
+      width: 100%;
+      background-color: #CDCDCA;
    }
 
    /* ---------------------------------- Work Projects */
@@ -140,4 +140,11 @@ main {
    .work-box h3 , p {
        margin: 5px;
        text-align: center;
+   }
+
+
+   .contact-box {
+       width: 60%;
+       margin: auto;
+
    }
