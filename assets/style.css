@@ -193,12 +193,34 @@ footer {
 }
 
 footer h3 {
-    width: 70%;
+    width: 33%;
+    margin-left: 20px;
+}
+
+.download-cv {
+    text-decoration: none;
+    color:#000;
+}
+
+.download-cv:hover {
+    color: #4c5d78;
 }
 
 .socialmedia-links {
-    width: 30%;
+    width: 33%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style-type: none;
+    font-size: 30px;
+   
+}
+
+.socialmedia-item {
+    text-decoration: none;
+    color: #000;
+     margin-right: 25px;
+}
+
+.socialmedia-item:hover {
+    color: #4c5d78;
 }
