@@ -34,6 +34,7 @@ body {
 
 main {
     padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .bg-image {
@@ -64,7 +65,7 @@ main {
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
-    margin: 20vh 0 5vh 0;
+    margin: 20vh 0 10vh 0;
 }
 
 .about-me-info {
@@ -94,6 +95,10 @@ main {
        margin: auto;
        margin-top: 5vh;
        margin-bottom: 5vh;
+   }
+
+   .container h3 {
+       padding-top: 15px;
    }
 
    .html, .css, .javascript, .python {
@@ -180,11 +185,20 @@ input[type=submit] {
 
 
 footer {
-  height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    background-color: #B5B8C8;
+    height: 10vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #B5B8C8;
+}
+
+footer h3 {
+    width: 70%;
+}
+
+.socialmedia-links {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
