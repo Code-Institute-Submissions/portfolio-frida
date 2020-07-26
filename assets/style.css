@@ -158,6 +158,11 @@ main {
        text-align: center;
    }
 
+   .project-link , .ci-link {
+       text-decoration: none;
+       color: #000;
+   }
+
 /* ----------------------------------- Contact Form */
 
 input[type=text], select, textarea {
