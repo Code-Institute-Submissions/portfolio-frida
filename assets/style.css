@@ -232,3 +232,45 @@ footer h3 {
 .socialmedia-item:hover {
     color: #4c5d78;
 }
+
+/* ------------------------------ Media Querys */
+
+@media only screen and (max-width:767px) {
+
+    .nav-item {
+    margin: 0px;
+    font-size: 10px;
+    }
+
+    .headline h1 {
+        font-size: 22px;
+    }
+
+    .headline h3 {
+        font-size: 16px;
+    }
+
+    .headline-2 {
+        font-size: 20px;
+    }
+
+    .about-me-info {
+        display: block;
+    }
+
+
+    .about-me-info p {
+        width: 80%;
+        margin: auto;
+        font-size: 12px;
+
+    }
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) {
+
+  }
