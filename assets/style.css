@@ -8,6 +8,7 @@
 
 body {
     font-family: "Playfair Display" , serif;
+    font-size: 16px;
 }
 
 /* ----------------------------------------------Header */
@@ -237,9 +238,12 @@ footer h3 {
 
 @media only screen and (max-width:767px) {
 
-    .nav-item {
-    margin: 0px;
-    font-size: 10px;
+    body {
+        font-size: 12px;
+    }
+
+    .nav-item , footer {
+        font-size: 10px;
     }
 
     .headline h1 {
@@ -262,9 +266,26 @@ footer h3 {
     .about-me-info p {
         width: 80%;
         margin: auto;
-        font-size: 12px;
-
     }
+
+    .fridas-photo {
+        width: 50%;
+        margin: auto;
+    }
+
+    .big-work-box {
+        display: block;
+    }
+
+    .work-box {
+        width: 80%;
+    }
+
+    .socialmedia-item {
+        font-size: 12px;
+    }
+
+
 
 }
 
