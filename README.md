@@ -23,7 +23,7 @@ The color scheme follows the colors of blue and yellow of the hero-image.
 ### Wireframes
 
 -   Main Section - [View](wireframes/index.png)
--   About Me Section - View
+-   About Me Section - [View](wireframes/about.png)
 -   My Work Section - View
 -   Contact Me Section - View
 
