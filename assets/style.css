@@ -8,7 +8,7 @@
 
 body {
     font-family: "Playfair Display" , serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* ----------------------------------------------Header */
@@ -162,7 +162,7 @@ main {
 
 /* ----------------------------------- Contact Form */
 
-.name , .email , .subject  {
+#name , #email , #subject  {
   width: 100%;
   padding: 12px; 
   border: 1px solid #ccc; 
@@ -284,14 +284,4 @@ footer h3 {
     .socialmedia-item {
         font-size: 12px;
     }
-
-
-
 }
-
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) {
-
-  }

@@ -3,7 +3,8 @@
 ### Fridas Portfolio
 (Milestone Project 1 for Code Institute)
 
-This is a website created for Frida Lindstrom to showcase her skills and previous work as a Full Stack Web Developer. The aim is for potential employers to gain more information as well as a possibility to contact Frida.
+This is a website created for Frida Lindstrom to showcase her skills and previous work as a Full Stack Web Developer. 
+The aim is for recruiters to find her site and hire her.
 
 ## UX
 
@@ -21,7 +22,7 @@ The color scheme follows the colors of blue and yellow of the hero-image.
 
 ### Wireframes
 
--   Main Section - View
+-   Main Section - [View](wireframes/index.png)
 -   About Me Section - View
 -   My Work Section - View
 -   Contact Me Section - View
