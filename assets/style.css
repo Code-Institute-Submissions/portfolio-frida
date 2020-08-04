@@ -190,6 +190,9 @@ input[type=email] {
   border-radius: 4px;
   border: none;
   width: 100%;
+  font-family: "Playfair Display" , serif;
+  font-size: 18px;
+
 }
 
 /* -------------------------------- Footer */

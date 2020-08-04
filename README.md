@@ -22,10 +22,10 @@ The color scheme follows the colors of blue and yellow of the hero-image.
 
 ### Wireframes
 
--   Main Section - [View](wireframes/index.png)
--   About Me Section - [View](wireframes/about.png)
--   My Work Section - View
--   Contact Me Section - View
+-   Main Section - [View](assets/wireframes/index.png)
+-   About Me Section - [View](assets/wireframes/about.png)
+-   My Work Section - [View](assets/wireframes/work.png)
+-   Contact Me Section - [View](assets/wireframes/contact.png)
 
 ## Features
 
