@@ -259,6 +259,7 @@ footer h3 {
 
     .headline-2 {
         font-size: 20px;
+        padding: 10vh 0 5vh 0;
     }
 
     .about-me-info {
@@ -273,7 +274,7 @@ footer h3 {
 
     .fridas-photo {
         width: 50%;
-        margin: auto;
+        margin: 25%;
     }
 
     .big-work-box {
@@ -283,8 +284,17 @@ footer h3 {
     .work-box {
         width: 80%;
     }
+    
+    footer h3 {
+        width: 50%;
+    }
+    
+    .hide-on-mobile {
+        display: none;
+    }
 
     .socialmedia-item {
-        font-size: 12px;
+        font-size: 16px;
+        margin-right: 10px;
     }
 }
