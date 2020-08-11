@@ -169,6 +169,14 @@ main {
        text-align: right;
    }
 
+   .project-link:hover {
+        color: #4c5d78;
+   }
+
+   .ci-link:hover {
+        color: #4c5d78;
+   }
+   
 /* ----------------------------------- Contact Form */
 
 #name , #email , #subject  {
