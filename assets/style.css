@@ -8,7 +8,7 @@
 
 body {
     font-family: "Playfair Display" , serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* ----------------------------------------------Header */
@@ -155,9 +155,17 @@ main {
        text-align: center;
    }
 
+   .projects-headline {
+       padding: 15px 0 10px 0;
+   }
+
    .project-link , .ci-link {
        text-decoration: none;
        color: #000;
+   }
+
+   .project-link p {
+       padding-top: 25px;
    }
 
 /* ----------------------------------- Contact Form */
@@ -201,13 +209,14 @@ footer {
     height: 10vh;
     width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #B5B8C8;
 }
 
 footer h3 {
-    width: 33%;
-    margin-left: 20px;
+    margin: 0 25px 0 25px;
+    font-size: 14px;
 }
 
 .download-cv {
@@ -219,8 +228,12 @@ footer h3 {
     color: #4c5d78;
 }
 
+.copyright {
+    font-size: 12px;
+    text-align: center;
+}
+
 .socialmedia-links {
-    width: 33%;
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -230,7 +243,7 @@ footer h3 {
 .socialmedia-item {
     text-decoration: none;
     color: #000;
-     margin-right: 25px;
+    margin-right: 25px;
 }
 
 .socialmedia-item:hover {
