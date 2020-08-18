@@ -21,7 +21,7 @@ This is a website created for Frida Lindstrom to showcase her skills and previou
 
 Home Page layout consisting of a hero-image, following a white background with black font throughout for the following sections.  
 The color scheme continues on the colors of blue and yellow found in the hero-image to keep the colors and light theme of the site consistent throughout.
-
+Font used throughout the site is Playfair Display which is used consistently through the whole site with Serif as back up font. 
 ### Wireframes
 
 -   Main Section - [View](assets/wireframes/index.png)
@@ -32,8 +32,12 @@ The color scheme continues on the colors of blue and yellow found in the hero-im
 ## Features
 
 - Responsive Design throughout website.
-- Contact Form
 
+### Existing features
+- Feature 1 - Navigation Bar - By choosing the different headlines in navigation bar (Home, About, Work, Contact, CV) the user will be transported to the selected part on the site. 
+- Feature 2 - Work Section - The user can choose to view another project by pressing the webiste-logo in each of the different sections and the website chosen will be opened in a new browser (currently only the portfolio website, where the user is transported to beginning of page when clicking on link, is a posssible choice but developer will add projects from the course when they are finished) 
+- Feature 3 - Contact Form - The user can fill in name, email and message to site owner.
+- Feature 4 - The user can view site owners CV in a pdf-format which when clicking in CV link will open in a new browser. 
 ### Future features to implement
 - Collapsible navigation bar when site is viewed on mobile devices (requires Javascript-knowledge).
 - Add links to future projects from course in the Work section.
@@ -82,6 +86,9 @@ Changes done after first test; comprised profile-photo to 186kb from 418kb to ma
 #### Contact Form
 - Typing in name, email and message and pressing send, being directed to new window. 
 - Typing in wrong email address message will pop up that email is not correct. 
+- When leaving field for name empty an error message will display that field is required.
+- When leaving field for email empty an error message will display that field is required.
+- When leaving field for message empty an error message will display that field is required.
 
 #### Footer
 - Clicking on the CV download icon in Footer will open a new browser tab showing the CV in a PDF-format.
